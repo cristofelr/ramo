@@ -1,0 +1,34 @@
+# LaTeX manuscript & publication files (kept private)
+main.tex
+references.bib
+figuras/
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE configurations & system files
+.vscode/
+*.code-workspace
+.idea/
+.DS_Store
+*.swp
+
+# Temporary testing plots
+test_lines*.png
+grafico_*.png
+kde_*.png
